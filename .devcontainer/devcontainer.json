@@ -1,0 +1,14 @@
+{
+    "name": "OS Labs",
+    "dockerFile": "Dockerfile",
+    "workspaceFolder": "/os-sem3",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/os-sem3,type=bind"
+    ],
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "extensions": [
+        "ms-vscode.cpptools"
+    ]
+}
